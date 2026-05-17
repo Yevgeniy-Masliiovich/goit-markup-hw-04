@@ -7,9 +7,11 @@
       rgba(46, 47, 66, 0.7) 100%
     ),
     url(../images/hero-bg.jpg);
+  max-width: 1440px; /* обмеження ширини */
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
   padding: 188px 141px;
 }
 .hero-title {

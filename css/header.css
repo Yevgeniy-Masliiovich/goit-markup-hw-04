@@ -1,5 +1,9 @@
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -59,12 +63,13 @@
 }
 .nav-active-link {
   position: relative;
+  color: #404bbf;
 }
-.nav-active-link:active::after {
-  position: absolute;
-  bottom: 1px;
-  left: 0;
+.nav-active-link::after {
   content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
   display: block;
   border-radius: 2px;
   width: 100%;
